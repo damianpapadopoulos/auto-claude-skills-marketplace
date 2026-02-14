@@ -1,4 +1,4 @@
-# Auto Claude Skills Marketplace
+# Auto Claude Skills Marketplace (acsm)
 
 Plugin marketplace for intelligent skill activation in Claude Code.
 
@@ -18,7 +18,7 @@ Add this marketplace to Claude Code:
 
 **Install:**
 ```
-/plugin install auto-claude-skills@auto-claude-skills-marketplace
+/plugin install auto-claude-skills@acsm
 ```
 
 **What you get:**

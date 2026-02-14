@@ -1,7 +1,7 @@
 {
-  "name": "auto-claude-skills-marketplace",
+  "name": "acsm",
   "owner": {
-    "name": "Damian Papadopoulos"
+    "name": "auto-claude-skills contributors"
   },
   "metadata": {
     "description": "Intelligent skill activation for Claude Code",
