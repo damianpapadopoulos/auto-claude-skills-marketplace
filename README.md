@@ -24,6 +24,7 @@ Add this marketplace to Claude Code:
 **What you get:**
 - Automatic skill detection and activation on every prompt
 - Phase-aware routing (Design, Plan, Implement, Review, Ship, Debug)
+- Auto-fix for invalid plugin manifest keys on session start
 - Works with plugins from any marketplace (superpowers, claude-plugins-official, etc.)
 - Zero configuration after install
 
