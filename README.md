@@ -14,7 +14,7 @@ Add this marketplace to Claude Code:
 
 ### auto-claude-skills
 
-**Description:** Phase-aware skill activation hook with intelligent routing for the design-plan-implement-review-ship pipeline
+**Description:** Intelligent skill activation with config-driven routing and role-based orchestration for the design-plan-implement-review-ship pipeline
 
 **Install:**
 ```
@@ -22,11 +22,13 @@ Add this marketplace to Claude Code:
 ```
 
 **What you get:**
-- Automatic skill detection and activation on every prompt
+- Config-driven skill routing with dynamic registry built at session start
+- Role-based orchestration: process skills drive, domain skills inform, workflow skills stand alone
 - Phase-aware routing (Design, Plan, Implement, Review, Ship, Debug)
-- Auto-fix for invalid plugin manifest keys on session start
+- 83 tests, graceful fallback for degraded environments
+- Optional user configuration via `~/.claude/skill-config.json`
 - Works with plugins from any marketplace (superpowers, claude-plugins-official, etc.)
-- Zero configuration after install
+- Zero configuration required — full curated experience out of the box
 
 **Repository:** https://github.com/damianpapadopoulos/auto-claude-skills
 
