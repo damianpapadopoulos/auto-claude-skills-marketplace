@@ -15,7 +15,7 @@
         "url": "https://github.com/damianpapadopoulos/auto-claude-skills.git"
       },
       "description": "Intelligent skill activation hook with phase-aware routing and agent team support for the design-plan-implement-review-ship pipeline",
-      "version": "3.0.0",
+      "version": "3.1.0",
       "strict": true
     }
   ]

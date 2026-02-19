@@ -26,7 +26,8 @@ Add this marketplace to Claude Code:
 - Role-based orchestration: process skills drive, domain skills inform, workflow skills stand alone
 - Phase-aware routing (Design, Plan, Implement, Review, Ship, Debug)
 - Agent team skills: design-debate (MAD), agent-team-execution, agent-team-review
-- 95 tests, graceful fallback for degraded environments
+- Session start health check with setup hints for missing plugins
+- 111 tests, graceful fallback for degraded environments
 - Optional user configuration via `~/.claude/skill-config.json`
 - Works with plugins from any marketplace (superpowers, claude-plugins-official, etc.)
 - Zero configuration required — full curated experience out of the box
